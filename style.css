@@ -250,3 +250,45 @@ footer .social-icons img:hover {
     align-items: center;
   }
 }
+
+/* APPOINTMENT SECTION - MATCH FEATURES PERFECTLY */
+
+.appointment {
+  background: #faf7f2; /* same as body */
+  text-align: center;
+}
+
+.appointment h2 {
+  color: #ff8800; /* SAME as .features h2 */
+  margin-bottom: 20px;
+}
+
+.appointment p {
+  color: #555;
+  margin-bottom: 30px;
+  font-size: 1.05rem;
+}
+
+/* Make button consistent with hero/contact */
+.appointment .btn {
+  display: inline-block;
+  background: #ff8800;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.appointment .btn:hover {
+  background: #ffbb55;
+}
+
+/* OPTIONAL: add subtle card feel (this makes it premium) */
+.appointment .container {
+  background: #fff;
+  border: 2px solid #ffbb55;
+  border-radius: 10px;
+  padding: 40px 20px;
+}
