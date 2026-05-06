@@ -292,3 +292,71 @@ footer .social-icons img:hover {
   border-radius: 10px;
   padding: 40px 20px;
 }
+
+/* TWO COLUMN APPOINTMENT SECTION */
+
+.appointment {
+  background: #faf7f2;
+  text-align: center;
+}
+
+.appointment h2 {
+  color: #ff8800;
+  margin-bottom: 40px;
+}
+
+/* Row layout */
+.appointment-options {
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+/* Each box same as your .card */
+.appointment-card {
+  flex: 1;
+  background: #fff;
+  padding: 25px;
+  border: 2px solid #ffbb55;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.appointment-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.appointment-card h3 {
+  color: #ff8800;
+  margin-bottom: 10px;
+}
+
+.appointment-card p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Button SAME as your theme */
+.appointment-card .btn {
+  display: inline-block;
+  background: #ff8800;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.appointment-card .btn:hover {
+  background: #ffbb55;
+}
+
+/* Mobile responsive */
+@media(max-width: 768px) {
+  .appointment-options {
+    flex-direction: column;
+  }
+}
